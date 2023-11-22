@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin: 1rem auto;
+    width: 960px;
+}
+
+button {
+    padding: 0.25rem;
+}
+
+#grid {
+    background-color: #d9d9d9;
+    border: 1px #d9d9d9 solid;
+    display: grid;
+    gap: 1px;
+    margin-top: 1rem;
+}
+#grid > * {
+    aspect-ratio: 1;
+    background-color: #ffffff;
+}
+#grid > .is-hovered {
+    background-color: coral;
+}
